@@ -1,0 +1,51 @@
+.App {
+flex-direction:column;
+}
+
+.App-header {
+  text-align: center;
+  background-color:lightblue;
+  flex:1;
+  padding: 10px;
+  color: white;
+
+}
+
+.App-title {
+  color: white;
+}
+
+.App-content {
+  width:100%;
+  flex:10;
+  overflow:scroll;
+  flex-direction: row;
+}
+
+.itembox {
+  justify-content:center;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items:stretch;
+  margin:5px 5px;
+  border:1px solid #eee;
+}
+
+.item {
+  align-self:center;
+  flex-grow: 1;
+  width:15%;
+    display: inline-block;
+    padding:10px 5px;
+}
+
+.App-footer {
+  position: absolute;
+  bottom:0;
+  width:100%;
+  flex:1;
+  background-color:lightblue;
+  padding: 20px;
+  color: white;
+ 
+}
